@@ -44,8 +44,8 @@
 
 1. **克隆项目**
    ```bash
-   git clone https://github.com/your-username/car-data-processor.git
-   cd car-data-processor
+   git clone https://github.com/jlcbk/database_manager.git
+   cd database_manager
    ```
 
 2. **创建虚拟环境**（推荐）
@@ -70,9 +70,26 @@
    ```
 
 5. **启动GUI应用**
+
+   **PyQt6现代化界面** (推荐):
+   ```bash
+   python run_modern.py
+   ```
+
+   **传统Tkinter界面**:
    ```bash
    python src/main.py
    ```
+
+### 🎨 界面版本对比
+
+| 特性 | Tkinter版本 | PyQt6版本 |
+|------|-------------|------------|
+| 外观现代化 | ⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 功能丰富度 | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 用户体验 | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 性能表现 | ⭐⭐⭐ | ⭐⭐⭐⭐⭐ |
+| 推荐使用 | 快速原型 | 生产环境 |
 
 ## 📖 使用指南
 

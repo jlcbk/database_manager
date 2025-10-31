@@ -6,15 +6,21 @@ PyPDF2>=3.0.0
 
 # 数据库
 sqlalchemy>=2.0.0
-sqlite3
 
 # AI和OCR
 openai>=1.0.0
 pytesseract>=0.3.10
 Pillow>=9.0.0
 
-# 界面
-tkinter
+# 现代化GUI库 - PyQt6
+PyQt6>=6.4.0                  # 最强大的GUI框架，专业级界面
+PyQt6-tools>=6.4.0           # Qt设计工具和实用程序
+# customtkinter>=5.2.0       # 现代化Tkinter替代方案
+# PySide6>=6.4.0              # PyQt6官方绑定版本
+# dearpygui>=1.8.0             # 高性能实时GUI
+# kivy>=2.2.0                 # 跨平台移动端友好
+
+# Web界面 (可选)
 flask>=2.3.0
 bootstrap-flask>=2.2.0
 
@@ -22,7 +28,6 @@ bootstrap-flask>=2.2.0
 numpy>=1.24.0
 python-docx>=0.8.11
 reportlab>=3.6.0
-pathlib2>=2.3.7
 
 # 测试
 pytest>=7.0.0
